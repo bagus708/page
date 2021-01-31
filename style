@@ -1,0 +1,115 @@
+html, body {
+	background: #ffffff;
+	color: #395996;
+	text-align: center;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.img-icon {
+	width: 50px;
+}
+
+.my-form {
+	width: 420px;
+	max-width: 90%;
+	display: block;
+	margin: auto;
+	background: none;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #395996;
+	outline: none;
+	color: #395996;
+}
+
+.my-form:focus {
+	width: 420px;
+	max-width: 90%;
+	display: block;
+	margin: auto;
+	background: none;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #395996;
+	outline: none;
+	padding-right: 10px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #395996;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #395996;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #395996;
+}
+
+.my-btn {
+	width: 420px;
+	height: 40px;
+	max-width: 90%;
+	margin: 10px auto;
+	background: #395996;
+	border: 1px solid #395996;
+	color: #395996;
+}
+
+.my-btn:hover {
+	background: #4b68a2;
+	border: 1px solid #395996;
+}
+
+.my-btn:focus {
+	background: #4b68a2;
+	border: 1px solid #395996;
+}
+
+.msg {
+	width: 420px;
+	max-width: 90%;
+	display: block;
+	outline: none;
+	color: #395996;
+	font-size: 0.9em;
+}
+
+@media only screen and (max-width: 600px) {
+	.mobile {
+		margin-top: 120px;
+	}
+}
